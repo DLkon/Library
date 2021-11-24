@@ -8,8 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Mochiy Pop One', sans-serif;
-  
+    font-family: 'Mochiy Pop One', sans-serif; 
 }
 
 header {
@@ -70,9 +69,13 @@ header {
 }
 
 .newBook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 104px;
     align-self: center;
     padding: 8px 16px;
+    
 }
 
 .title { 
